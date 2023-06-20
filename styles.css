@@ -1,0 +1,65 @@
+div{
+   text-align: center; 
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.marker{
+    display: flex;
+    padding: 1%;
+height: 40px;
+width: 25%;
+}
+.marker div{
+    padding: 1%;
+  color: transparent;
+    box-shadow: 0px 0px 25px black;
+}
+.d1_red{
+    width: 25%;
+    background-image: linear-gradient(rgba(255, 0, 0,1),rgba(255, 0, 0,0.5),rgba(255, 0, 0,1));
+
+}
+.d2_red{
+    width: 63%;
+    background-image: linear-gradient(rgba(255, 0, 0,0.6),rgba(255, 0, 0,0.2),rgba(255, 0, 0,0.6));
+    
+    border-left: 10px double rgba(0, 0, 0,1) ;
+}
+.d3_red{
+    width: 12;
+    background-image: linear-gradient(rgba(255, 0, 0,1),rgba(255, 0, 0,0.5),rgba(255, 0, 0,1));
+}
+.d1_green{
+    width: 25%;
+    background-image: linear-gradient(rgb(60, 206, 2,1),rgb(72, 255, 0,0.5),rgb(72, 255, 0,1));
+}
+.d2_green{
+    width: 63%;
+    background-image: linear-gradient(rgb(60, 206, 2,0.6),rgb(72, 255, 0,0.2),rgb(72, 255, 0,0.6)); 
+    border-left: 10px double rgba(0, 0, 0,1) ;
+}
+.d3_green{
+    width: 12;
+    background-image: linear-gradient(rgb(60, 206, 2,1),rgb(72, 255, 0,0.5),rgb(72, 255, 0,1));
+}
+.d1_blue{
+    width: 25%;
+    background-image: linear-gradient(rgba(0, 10, 255,1),rgba(0, 0, 255,0.5),rgba(0, 0, 255,1));
+
+}
+.d2_blue{
+    width: 63%;
+    background-image: linear-gradient(rgba(0, 0, 200,0.6),rgba(0, 0, 200,0.2),rgba(0, 0, 200,0.6));
+    
+    border-left: 10px double rgba(0, 0, 0,1) ;
+}
+.d3_blue{
+    width: 12;
+    background-image: linear-gradient(rgba(0, 0, 205,1),rgba(0, 0, 255,0.5),rgba(0, 0, 200,1));
+}
+.marker red{
+    width: 500px;
+}
